@@ -13,7 +13,7 @@ const firebaseConfig = {
   storageBucket: "ecommerce-academlo.appspot.com",
   messagingSenderId: "1091301644583",
   appId: "1:1091301644583:web:e8ecb8372baa7b4786f102",
-  measurementId: "G-DE5KTH6KJM"
+  measurementId: "G-DE5KTH6KJM",
 };
 
 // Initialize Firebase
