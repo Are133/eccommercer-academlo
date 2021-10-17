@@ -23,10 +23,12 @@ export default function Header() {
       </div>
 
       <div className="header_nav">
-        <div className="header__option">
-          <span className="header__optionLineOn">Hola Chay</span>
-          <span className="header__optionLineTow">Inicia sesion</span>
-        </div>
+        <Link to="/login">
+          <div className="header__option">
+            <span className="header__optionLineOn">Hola Chay</span>
+            <span className="header__optionLineTow">Inicia sesion</span>
+          </div>
+        </Link>
 
         <div className="header__option">
           <span className="header__optionLineOne">Devoluciones</span>
